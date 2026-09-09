@@ -4,6 +4,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Menu } from "lucide-react"
+import { basePath } from "@/lib/basepath"
 
 import {
   Sheet,
@@ -44,7 +45,7 @@ export function NavigationBar() {
             {/* Logo */}
             <Link href="/" className="flex items-center">
                 <Image
-                    src="/images/AJElectricalLogoWidescreenBlue.png"
+                     src={`${basePath}/images/AJElectricalLogoWidescreenBlue.png`}
                     alt="AJ's Electrical"
                     width={270}
                     height={75}
@@ -111,7 +112,7 @@ export function NavigationBar() {
                     <SheetHeader>
                         <SheetTitle className="text-left">
                             <Image
-                                src="/images/AJElectricalLogoWidescreenBlue.png"
+                                src={`${basePath}/images/AJElectricalLogoWidescreenBlue.png`}
                                 alt="AJ's Electrical"
                                 width={220}
                                 height={61}

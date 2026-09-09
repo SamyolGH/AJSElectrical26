@@ -6,6 +6,7 @@ import { CheckCircle2, ShieldCheck, Clock } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useEffect, useState } from "react"
 import Autoplay from "embla-carousel-autoplay"
+import { basePath } from "@/lib/basepath"
 
 import {
   Carousel,
@@ -14,31 +15,33 @@ import {
   CarouselApi,
 } from "@/components/ui/carousel"
 
+
+
 const heroImages = [
-    {
-        src: "/images/hero/hero-1.jpg",
-        position: "center 0%",
-    },
-    {
-        src: "/images/hero/hero-2.jpg",
-        position: "center 0%",
-    },
-    {
-        src: "/images/hero/hero-3.jpg",
-        position: "center 0%",
-    },
-    {
-        src: "/images/hero/hero-4.jpg",
-        position: "center 0%",
-    },
-    {
-        src: "/images/hero/hero-5.jpg",
-        position: "center 0%",
-    },
-    {
-        src: "/images/hero/hero-6.jpg",
-        position: "center 60%",
-    },
+  {
+    src: `${basePath}/images/hero/hero-1.jpg`,
+    position: "center 0%",
+  },
+  {
+    src: `${basePath}/images/hero/hero-2.jpg`,
+    position: "center 0%",
+  },
+  {
+    src: `${basePath}/images/hero/hero-3.jpg`,
+    position: "center 0%",
+  },
+  {
+    src: `${basePath}/images/hero/hero-4.jpg`,
+    position: "center 0%",
+  },
+  {
+    src: `${basePath}/images/hero/hero-5.jpg`,
+    position: "center 0%",
+  },
+  {
+    src: `${basePath}/images/hero/hero-6.jpg`,
+    position: "center 60%",
+  },
 ]
 
 export function Hero() {

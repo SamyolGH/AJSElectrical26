@@ -7,6 +7,7 @@ import {
     Phone,
 } from "lucide-react"
 import { FaFacebookF } from "react-icons/fa"
+import { basePath } from "@/lib/basepath"
 
 const footerLinks = [
     {
@@ -32,11 +33,11 @@ export function Footer() {
                 {/* Brand */}
                 <div>
                     <Image
-                    src="/images/AJElectricalLogoWidescreenWhite.png"
-                    alt="AJ's Electrical"
-                    width={260}
-                    height={75}
-                    className="h-auto w-[210px]"
+                        src={`${basePath}/images/AJElectricalLogoWidescreenWhite.png`}
+                        alt="AJ's Electrical"
+                        width={260}
+                        height={75}
+                        className="h-auto w-[210px]"
                     />
 
                     <p className="mt-5 max-w-sm text-sm leading-6 text-white/70">
