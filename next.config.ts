@@ -1,12 +1,16 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from "next"
+
+const isProd = process.env.NODE_ENV === "production"
 
 const nextConfig: NextConfig = {
-    output: 'export',
-    images: {
-      unoptimized: true,
-    },
+  output: "export",
+  trailingSlash: true,
 
-    basePath: process.env.NODE_ENV === 'production' ? '/AJSElectrical26' : '',
-};
+  basePath: isProd ? "/AJSElectrical26" : "",
 
-export default nextConfig;
+  images: {
+    unoptimized: true,
+  },
+}
+
+export default nextConfig
