@@ -177,7 +177,7 @@ export function Hero() {
                             pointer-events-auto
                             mx-auto w-full max-w-[500px]
                             rounded-md
-                            bg-[#10294A]/95
+                            bg-[#10294A]/80
                             text-white
                             shadow-2xl
                             backdrop-blur-sm
