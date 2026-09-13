@@ -11,25 +11,25 @@ const services = [
     {
         title: "General Domestic Electrical",
         description:
-        "We install outlets and switches, and fix faulty wiring.",
+        "We install new power outlets and switches, upgrade existing fittings, and diagnose and repair faulty or damaged wiring.",
         icon: HousePlug,
     },
     {
         title: "Lighting Installation",
         description:
-        "We install your lighting needs.",
+        "We install lighting solutions tailored to your needs, including indoor, outdoor and energy-efficient LED lighting.",
         icon: Lightbulb,
     },
     {
         title: "Switchboard Upgrades",
         description:
-        "We install, upgrade and relocate switchboards.",
+        "We install, upgrade and relocate switchboards to improve electrical safety, reliability and capacity.",
         icon: PanelsTopLeft,
     },
     {
         title: "Aircon Installations & Maintenance",
         description:
-        "We install and maintain air conditioning systems.",
+        "We install and maintain air-conditioning systems to keep your home or business comfortable and operating efficiently.",
         icon: AirVent,
     },
 ]
