@@ -19,7 +19,7 @@ const services = [
     title: "General Domestic Electric",
     description:
       "From new builds to renovations and everyday electrical work, we provide safe, reliable solutions for your home.",
-    image: `${basePath}/images/services/domestic.jpg`,
+    image: `${basePath}/images/services/placeholder.jpg`,
     icon: HousePlug,
     position: "center",
     details:
@@ -32,7 +32,7 @@ const services = [
     title: "Aircon Installations & Maintenance",
     description:
       "Professional installation and maintenance to keep your home comfortable throughout the year.",
-    image: `${basePath}/images/services/aircon.jpg`,
+    image: `${basePath}/images/services/placeholder.jpg`,
     icon: AirVent,
     position: "center",
     details:
@@ -45,7 +45,7 @@ const services = [
     title: "Switchboard Upgrades",
     description:
       "Improve safety and performance with a modern switchboard upgrade tailored to your property.",
-    image: `${basePath}/images/services/switchboard.jpg`,
+    image: `${basePath}/images/services/placeholder.jpg`,
     icon: PanelsTopLeft,
     position: "center",
     details:
@@ -58,7 +58,7 @@ const services = [
     title: "Lighting Installations",
     description:
       "Stylish and efficient lighting solutions for your home, outdoor spaces and commercial projects.",
-    image: `${basePath}/images/services/lighting.jpg`,
+    image: `${basePath}/images/services/placeholder.jpg`,
     icon: Lightbulb,
     position: "center",
     details:
