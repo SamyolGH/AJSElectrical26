@@ -1,11 +1,12 @@
 
 import Image from "next/image";
+import { basePath } from "@/lib/basepath"
 
 export function ContactHero() {
     return (
         <section className="relative h-[290px] overflow-hidden font-[family-name:var(--font-poppins)] md:h-[320px]">
             <Image
-                src="/images/hero/hero-4.jpg"
+                src={`${basePath}/images/hero/hero-4.jpg`}
                 alt=""
                 fill
                 priority
