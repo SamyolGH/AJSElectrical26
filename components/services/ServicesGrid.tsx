@@ -12,23 +12,19 @@ import {
 
 import { Button } from "@/components/ui/button"
 import { ServiceCard } from "./ServiceCard"
+import { basePath } from "@/lib/basepath"
 
 const services = [
   {
     title: "General Domestic Electric",
     description:
       "From new builds to renovations and everyday electrical work, we provide safe, reliable solutions for your home.",
-    image: "/images/services/domestic.jpg",
+    image: `${basePath}/images/services/domestic.jpg`,
     icon: HousePlug,
     position: "center",
     details:
       "AJ's Electrical provides a complete range of domestic electrical services for homes, renovations and new builds. Whether you need a new power point installed, faulty wiring repaired or electrical work completed as part of a larger renovation, we can provide a safe and reliable solution.",
     features: [
-      "a quick brown fox jumps over the lazy dog",
-      "a quick brown fox jumps over the lazy dog",
-      "a quick brown fox jumps over the lazy dog",
-      "a quick brown fox jumps over the lazy dog",
-      "a quick brown fox jumps over the lazy dog",
       "a quick brown fox jumps over the lazy dog",
     ],
   },
@@ -36,54 +32,39 @@ const services = [
     title: "Aircon Installations & Maintenance",
     description:
       "Professional installation and maintenance to keep your home comfortable throughout the year.",
-    image: "/images/services/aircon.jpg",
+    image: `${basePath}/images/services/aircon.jpg`,
     icon: AirVent,
     position: "center",
     details:
       "We install and maintain air conditioning systems for residential properties, helping keep your home comfortable throughout Brisbane's warmer months. We can assist with new installations, replacements and ongoing maintenance.",
     features: [
-      "a quick brown fox jumps over the lazy dog",
-      "a quick brown fox jumps over the lazy dog",
-      "a quick brown fox jumps over the lazy dog",
-      "a quick brown fox jumps over the lazy dog",
-      "a quick brown fox jumps over the lazy dog",
-      "a quick brown fox jumps over the lazy dog",
+      "a quick brown fox jumps over the lazy dog 2",
     ],
   },
   {
     title: "Switchboard Upgrades",
     description:
       "Improve safety and performance with a modern switchboard upgrade tailored to your property.",
-    image: "/images/services/switchboard.jpg",
+    image: `${basePath}/images/services/switchboard.jpg`,
     icon: PanelsTopLeft,
     position: "center",
     details:
       "Older switchboards may no longer provide the level of protection required by modern homes and electrical equipment. We can assess your existing switchboard and provide upgrades designed to improve safety, reliability and capacity.",
     features: [
-      "a quick brown fox jumps over the lazy dog",
-      "a quick brown fox jumps over the lazy dog",
-      "a quick brown fox jumps over the lazy dog",
-      "a quick brown fox jumps over the lazy dog",
-      "a quick brown fox jumps over the lazy dog",
-      "a quick brown fox jumps over the lazy dog",
+      "a quick brown fox jumps over the lazy dog 3",
     ],
   },
   {
     title: "Lighting Installations",
     description:
       "Stylish and efficient lighting solutions for your home, outdoor spaces and commercial projects.",
-    image: "/images/services/lighting.jpg",
+    image: `${basePath}/images/services/lighting.jpg`,
     icon: Lightbulb,
     position: "center",
     details:
       "From practical indoor lighting to outdoor and feature lighting, we can install lighting solutions suited to your property. We can also replace or upgrade existing fittings with modern, energy-efficient alternatives.",
     features: [
-      "a quick brown fox jumps over the lazy dog",
-      "a quick brown fox jumps over the lazy dog",
-      "a quick brown fox jumps over the lazy dog",
-      "a quick brown fox jumps over the lazy dog",
-      "a quick brown fox jumps over the lazy dog",
-      "a quick brown fox jumps over the lazy dog",
+      "a quick brown fox jumps over the lazy dog 4",
     ],
   },
 ]
